@@ -12,10 +12,10 @@ Get your API key first: [calendarmcp.ai](https://calendarmcp.ai) → sign in wit
 | Claude Code | [claude-code.sh](./claude-code.sh) | [calendarmcp.ai/integrations/claude-code](https://calendarmcp.ai/integrations/claude-code) |
 | Cursor | [cursor.json](./cursor.json) | [calendarmcp.ai/integrations/cursor](https://calendarmcp.ai/integrations/cursor) |
 | OpenClaw | [openclaw.json](./openclaw.json) | [calendarmcp.ai/integrations/openclaw](https://calendarmcp.ai/integrations/openclaw) |
-| Continue | [continue.json](./continue.json) | — |
-| Windsurf | [windsurf.json](./windsurf.json) | — |
-| Goose | [goose.yaml](./goose.yaml) | — |
-| n8n | [n8n.md](./n8n.md) | — |
+| Continue | [continue.json](./continue.json) | (no dedicated guide yet) |
+| Windsurf | [windsurf.json](./windsurf.json) | (no dedicated guide yet) |
+| Goose | [goose.yaml](./goose.yaml) | (no dedicated guide yet) |
+| n8n | [n8n.md](./n8n.md) | (no dedicated guide yet) |
 
 If your client isn't listed, the canonical info you need is:
 

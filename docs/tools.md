@@ -50,7 +50,7 @@ Get full details of one event.
 
 ### `create_event`
 
-Create an event. Use either `startDateTime`/`endDateTime` (timed) OR `startDate`/`endDate` (all-day) — never both.
+Create an event. Use either `startDateTime`/`endDateTime` (timed) OR `startDate`/`endDate` (all-day). Never both.
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|

@@ -46,4 +46,4 @@ On `5xx`:
 
 ## Monitoring
 
-The dashboard shows `lastUsedAt` per key and per connection — useful for spotting stale or abused keys.
+The dashboard shows `lastUsedAt` per key and per connection. Useful for spotting stale or abused keys.

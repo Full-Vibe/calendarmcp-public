@@ -18,7 +18,7 @@ This repo is the public docs, manifest, and client examples for the service. **T
 - **HTTP transport.** Works with Claude.ai, Claude Code, Cursor, and any hosted MCP client. Self-hosted stdio MCPs only work with Claude Desktop.
 - **Batch operations.** `batch_update_events` updates up to 50 events in one concurrent call. Renaming a recurring meeting across a year is one prompt, not 50 clicks.
 - **Multi-account, one key.** Connect any number of Google accounts (mix OAuth and service-account-shared calendars) under a single API key. Reading fans out across all of them, results merged and sorted.
-- **Google Advanced Protection support.** The only hosted MCP that works for GAP users (via service-account sharing — OAuth is blocked for those accounts).
+- **Google Advanced Protection support.** The only hosted MCP that works for GAP users (via service-account sharing. OAuth is blocked for those accounts).
 - **Per-calendar Read/Write matrix.** Tighten what each agent can touch from the dashboard without minting new keys.
 
 ## Quick start
@@ -189,7 +189,7 @@ The hosted service is not open source.
 
 ## Links
 
-- [calendarmcp.ai](https://calendarmcp.ai) — the service
+- [calendarmcp.ai](https://calendarmcp.ai). The service
 - [Docs](https://calendarmcp.ai/docs)
 - [Blog](https://calendarmcp.ai/blog)
 - [Changelog](https://calendarmcp.ai/changelog)

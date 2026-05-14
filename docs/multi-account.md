@@ -21,7 +21,7 @@ The dashboard shows per-connection health: ✅ healthy, ⚠️ token expired (on
 3. Merge results, sort by start time.
 4. Return labelled with `calendarId` and (optionally) a friendly `connectionLabel` so you know which account each event came from.
 
-`create_event` and other write tools require an explicit `calendarId` — we won't guess which account to put an event on.
+`create_event` and other write tools require an explicit `calendarId`. We won't guess which account to put an event on.
 
 ## Example prompts
 

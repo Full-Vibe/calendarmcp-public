@@ -34,7 +34,7 @@ Server-side enforcement: every tool call checks the matrix. Denied calls return 
 
 ## Rotating a key
 
-The dashboard supports key rotation (issue new + invalidate old). For now, keys are single-purpose (one key per account); we'll add multiple keys per account in an upcoming release. Until then, treat the key like a password — don't commit it to git, don't paste it into a public chat.
+The dashboard supports key rotation (issue new + invalidate old). For now, keys are single-purpose (one key per account); we'll add multiple keys per account in an upcoming release. Until then, treat the key like a password. Don't commit it to git, don't paste it into a public chat.
 
 ## Revoking access
 

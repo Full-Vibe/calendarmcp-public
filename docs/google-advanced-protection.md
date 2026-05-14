@@ -12,7 +12,7 @@ When you click "Sign in with Google" to authorize a non-Google app to access you
 
 ## The service-account flow
 
-A **service account** is a Google identity that belongs to a Google Cloud project, not a person. You can share a Google Calendar with a service account just like you'd share it with a coworker. GAP does not block that — sharing is a normal calendar feature.
+A **service account** is a Google identity that belongs to a Google Cloud project, not a person. You can share a Google Calendar with a service account just like you'd share it with a coworker. GAP does not block that. Sharing is a normal calendar feature.
 
 CalendarMCP runs a service account on your behalf:
 

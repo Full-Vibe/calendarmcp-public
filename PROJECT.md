@@ -9,7 +9,7 @@ This repo is the **public face** of the CalendarMCP product. It exists so:
 - Glama, Smithery, PulseMCP, mcp.so, and the official MCP registry can auto-discover the server
 - Users get a familiar GitHub URL to land on, browse client configs, and file issues
 - The repo accumulates stars and GitHub-driven SEO for "calendar mcp" / "google calendar mcp" queries
-- We claim the canonical MCP registry namespace `io.calendarmcp/calendarmcp`
+- We claim the canonical MCP registry namespace `io.github.full-vibe/calendarmcp` (GitHub-authenticated, matches our org)
 
 ## What lives here
 
@@ -21,7 +21,7 @@ This repo is the **public face** of the CalendarMCP product. It exists so:
 | `.well-known/mcp-server.json` | Discovery stub |
 | `examples/` | Copy-paste client configs (Claude Desktop, Claude Code, Cursor, OpenClaw, Continue, Windsurf, Goose, n8n) |
 | `docs/` | Human-readable docs: tools, auth, GAP, multi-account, rate limits, changelog |
-| `LICENSE` | MIT — applies to this repo's docs/examples only |
+| `LICENSE` | MIT. Applies to this repo's docs/examples only |
 | `CONTRIBUTING.md` | What PRs we accept |
 
 ## What does NOT live here

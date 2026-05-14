@@ -2,7 +2,7 @@
 
 This repository is public docs, manifest files, and client configs for the hosted CalendarMCP service. We welcome PRs for:
 
-- New client config examples (e.g. you got CalendarMCP working with a client we haven't listed — drop a config into `examples/`).
+- New client config examples (e.g. you got CalendarMCP working with a client we haven't listed. Drop a config into `examples/`).
 - Doc clarifications, typo fixes, additional examples.
 - Translations of `README.md` or docs (file in `docs/<lang>/`).
 - New entries to `mcp.json` or `server.json` (if the upstream spec evolves).
