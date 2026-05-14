@@ -1,0 +1,88 @@
+{
+  "name": "calendarmcp",
+  "displayName": "CalendarMCP",
+  "description": "Hosted Google Calendar MCP server. Connect any AI agent to Google Calendar in 2 minutes. 10 tools including batch update, multi-account-one-key, and Google Advanced Protection support.",
+  "version": "1.0.0",
+  "vendor": "FullVibe AI",
+  "homepage": "https://calendarmcp.ai",
+  "documentation": "https://calendarmcp.ai/docs",
+  "license": "Proprietary (hosted service); MIT for this repository",
+  "categories": ["productivity", "calendar", "google"],
+  "tags": [
+    "google-calendar",
+    "calendar",
+    "scheduling",
+    "productivity",
+    "hosted",
+    "http",
+    "batch",
+    "multi-calendar",
+    "google-advanced-protection"
+  ],
+  "transports": [
+    {
+      "type": "http",
+      "url": "https://calendarmcp.ai/api/mcp"
+    }
+  ],
+  "auth": {
+    "type": "bearer",
+    "instructions": "Sign in with Google at https://calendarmcp.ai to get your API key, then pass it as `Authorization: Bearer <key>`."
+  },
+  "tools": [
+    {
+      "name": "list_events",
+      "description": "List events across one or all connected calendars in a time range."
+    },
+    {
+      "name": "get_event",
+      "description": "Full details of one event."
+    },
+    {
+      "name": "create_event",
+      "description": "Create an event with attendees, location, reminders, recurrence."
+    },
+    {
+      "name": "update_event",
+      "description": "Partial update of an existing event."
+    },
+    {
+      "name": "delete_event",
+      "description": "Delete an event."
+    },
+    {
+      "name": "quick_add_event",
+      "description": "Create from natural language."
+    },
+    {
+      "name": "list_calendars",
+      "description": "List every calendar the key can see with per-calendar R/W permissions."
+    },
+    {
+      "name": "find_free_time",
+      "description": "Free/busy query across one or more calendars."
+    },
+    {
+      "name": "manage_attendees",
+      "description": "Add or remove attendees from an event."
+    },
+    {
+      "name": "batch_update_events",
+      "description": "Update up to 50 events in one concurrent call."
+    }
+  ],
+  "examples": [
+    {
+      "name": "Find free time across all your calendars",
+      "prompt": "When am I free next Tuesday afternoon across all my calendars?"
+    },
+    {
+      "name": "Batch update events",
+      "prompt": "Rename all 'Standup' events from this month to 'Daily Standup'."
+    },
+    {
+      "name": "Multi-account briefing",
+      "prompt": "What do I have across personal and work calendars next week?"
+    }
+  ]
+}

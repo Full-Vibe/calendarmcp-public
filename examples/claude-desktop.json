@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "calendar": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-fetch",
+        "https://calendarmcp.ai/api/mcp"
+      ],
+      "env": {
+        "MCP_AUTH_HEADER": "Authorization: Bearer YOUR_CALENDARMCP_API_KEY"
+      }
+    }
+  }
+}

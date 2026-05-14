@@ -1,0 +1,14 @@
+{
+  "plugins": {
+    "entries": {
+      "mcp-calendarmcp": {
+        "enabled": true,
+        "config": {
+          "url": "https://calendarmcp.ai/api/mcp",
+          "transport": "http",
+          "authHeader": "Bearer YOUR_CALENDARMCP_API_KEY"
+        }
+      }
+    }
+  }
+}

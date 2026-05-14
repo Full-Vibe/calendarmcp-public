@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "calendar": {
+      "url": "https://calendarmcp.ai/api/mcp",
+      "headers": {
+        "Authorization": "Bearer YOUR_CALENDARMCP_API_KEY"
+      }
+    }
+  }
+}

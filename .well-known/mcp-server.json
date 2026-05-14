@@ -1,0 +1,8 @@
+{
+  "name": "calendarmcp",
+  "url": "https://calendarmcp.ai/api/mcp",
+  "transport": "http",
+  "auth": "bearer",
+  "homepage": "https://calendarmcp.ai",
+  "documentation": "https://calendarmcp.ai/docs"
+}

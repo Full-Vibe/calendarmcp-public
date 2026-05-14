@@ -1,0 +1,8 @@
+# Goose MCP config (~/.config/goose/config.yaml)
+extensions:
+  calendar:
+    enabled: true
+    type: http
+    url: https://calendarmcp.ai/api/mcp
+    headers:
+      Authorization: "Bearer YOUR_CALENDARMCP_API_KEY"
