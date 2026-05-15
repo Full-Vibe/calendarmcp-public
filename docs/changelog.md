@@ -6,8 +6,11 @@ This mirror is kept in sync, mostly.
 
 ## 2026-05
 
+- **May 14:** Added `/integrations` directory with setup guides for 14 MCP clients. Per-client deep-dive pages: Claude Desktop, Claude Code, Cursor, OpenClaw. `/changelog`, `/showcase` gallery, and Outlook/iCloud waitlist landing pages added. Sitemap and footer updated.
+- **May 1-13:** Five trickle-scheduled blog posts covering CalendarMCP workflows: AI executive assistant, batch event updates, CalendarMCP vs Composio, CalendarMCP vs self-hosted, best calendar MCP servers 2026.
 - Trickle-publish bug fix on blog (future-dated posts now resolve at their publish date).
-- New surface area: `/integrations` (14 MCP clients), `/changelog`, `/showcase`, `/outlook` and `/icloud` waitlist pages.
+- Full AI bot allowlist added to robots.ts (GPTBot, ChatGPT-User, OAI-SearchBot, ClaudeBot, anthropic-ai, PerplexityBot, Bingbot, Meta-ExternalAgent, Applebot, Applebot-Extended, DuckAssistBot, CCBot, Bytespider).
+- FAQPage + Organization + SoftwareApplication JSON-LD schema added to site-wide layout.
 
 ## 2026-04
 
