@@ -6,6 +6,8 @@ This mirror is kept in sync, mostly.
 
 ## 2026-05
 
+- **May 19:** Blog: "Connecting Google Calendar to OpenClaw" (step-by-step plugin config guide, multi-account setup, troubleshooting).
+- **May 16:** Blog: "Connecting Google Calendar to Cursor (the real way)" (exact .cursor/mcp.json config, HTTP transport).
 - **May 14:** Added `/integrations` directory with setup guides for 14 MCP clients. Per-client deep-dive pages: Claude Desktop, Claude Code, Cursor, OpenClaw. `/changelog`, `/showcase` gallery, and Outlook/iCloud waitlist landing pages added. Sitemap and footer updated.
 - **May 1-13:** Five trickle-scheduled blog posts covering CalendarMCP workflows: AI executive assistant, batch event updates, CalendarMCP vs Composio, CalendarMCP vs self-hosted, best calendar MCP servers 2026.
 - Trickle-publish bug fix on blog (future-dated posts now resolve at their publish date).
