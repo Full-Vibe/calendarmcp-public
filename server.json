@@ -1,8 +1,8 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.full-vibe/calendarmcp",
+  "name": "ai.calendarmcp/server",
   "title": "CalendarMCP",
-  "description": "Hosted Google Calendar MCP server. Connect any AI agent to your Google Calendar in about two minutes. No self-hosting, no Docker, no credentials.json. Streamable HTTP transport works with Claude.ai, Cursor, Claude Code, OpenClaw, and any HTTP-capable MCP client. 10 tools including batch update, multi-account-one-key, and Google Advanced Protection support.",
+  "description": "Hosted Google Calendar MCP server for AI agents. No self-hosting or Google Cloud setup.",
   "version": "1.0.0",
   "websiteUrl": "https://calendarmcp.ai",
   "repository": {
