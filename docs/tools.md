@@ -121,6 +121,18 @@ Returns busy blocks per calendar. Compute free time = window minus busy.
 
 **Permission:** Read on each calendar.
 
+### `create_calendar`
+
+Create a new secondary Google Calendar and add it to the API key permission matrix. OAuth-connected accounts only. Service-account connections should create the calendar in Google Calendar first, share it with the service account, then add it from the dashboard.
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `summary` | string | yes | Calendar name. |
+| `description` | string | no | Calendar description. |
+| `timeZone` | string | no | IANA timezone, for example `America/Los_Angeles`. |
+
+**Permission:** OAuth-connected account required.
+
 ### `manage_attendees`
 
 Add or remove attendees from an existing event.

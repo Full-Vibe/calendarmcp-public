@@ -1,7 +1,7 @@
 {
   "name": "calendarmcp",
   "displayName": "CalendarMCP",
-  "description": "Hosted Google Calendar MCP server. Connect any AI agent to Google Calendar in 2 minutes. 10 tools including batch update, multi-account-one-key, and Google Advanced Protection support.",
+  "description": "Hosted Google Calendar MCP server. Connect any AI agent to Google Calendar in 2 minutes. 11 tools including calendar creation, batch update, multi-account-one-key, and Google Advanced Protection support.",
   "version": "1.0.0",
   "vendor": "FullVibe AI",
   "homepage": "https://calendarmcp.ai",
@@ -57,6 +57,10 @@
     {
       "name": "list_calendars",
       "description": "List every calendar the key can see with per-calendar R/W permissions."
+    },
+    {
+      "name": "create_calendar",
+      "description": "Create a new secondary calendar. OAuth-connected accounts only."
     },
     {
       "name": "find_free_time",

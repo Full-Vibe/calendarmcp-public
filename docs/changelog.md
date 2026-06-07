@@ -4,6 +4,10 @@ Authoritative version: [calendarmcp.ai/changelog](https://calendarmcp.ai/changel
 
 This mirror is kept in sync, mostly.
 
+## 2026-06
+
+- Added `create_calendar`, an OAuth-only tool for creating secondary Google calendars. Public docs now call out the service-account limitation: service-account users should create calendars in Google Calendar, share them with the CalendarMCP service account, then add them from the dashboard.
+
 ## 2026-05
 
 - **May 19:** Blog: "Connecting Google Calendar to OpenClaw" (step-by-step plugin config guide, multi-account setup, troubleshooting).

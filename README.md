@@ -111,7 +111,7 @@ See [examples/](./examples/) for Continue, Windsurf, Goose, n8n, and more.
 
 ## Tools
 
-CalendarMCP exposes 10 tools. The full machine-readable schema lives at [https://calendarmcp.ai/api/docs](https://calendarmcp.ai/api/docs).
+CalendarMCP exposes 11 tools. The full machine-readable schema lives at [https://calendarmcp.ai/api/docs](https://calendarmcp.ai/api/docs).
 
 | Tool | Description |
 |------|-------------|
